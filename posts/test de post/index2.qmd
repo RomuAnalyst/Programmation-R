@@ -1,0 +1,60 @@
+---
+title: "Manipulation de données"
+author: "Romu"
+date: "2022-10-25"
+categories: [news, analysis]
+image: "image.png"
+---
+
+Codes utiles pour la manipulation des données.
+
+***Sélection du répertoire de travail (où il y aura les données à étudier)***
+
+```{r eval=FALSE}
+getwd() # afficher le répertoire de travail actuel
+setwd("C:/Users/.../dossier de travail") # définir le répertoire de travail
+
+install.packages("nom_package") # installation du package
+library(nom_package) # chargement du package
+
+```
+
+***Liste des packages à installer/charger (pour ce cours).***
+
+```{r message=FALSE}
+library(tidyverse)  # indispensable, il installe aussi certains des packages suivants
+library(magrittr)
+library(tibble)
+library(dplyr)
+library(tibble)
+library(stringr)
+library(lubridate)
+```
+
+***Création d'une table avec tible***
+
+x : valeurs de 1 à 5  
+y : valeur 1 répété sur chaque ligne  
+z : calcul de l'équation en remplacant les x et y par leurs valeurs
+
+```{r}
+ma_table <- tibble(
+  x = 1:5,      
+  y = 1,        
+  z = x ^ 2 + y         
+)
+
+ma_table
+```
+
+Avantages : `tibble` peut avoir des noms de colonnes qui ne sont pas valides dans d'autres formats (voir exemple ci dessous)  
+            affiche le type de variables, les 10 premières lignes et toutes les colonnes
+
+```{r}
+# 
+ma_table <- tibble(
+  `:)` = "smile", 
+  ` ` = "space",
+  `2000` = "number"
+)
+```

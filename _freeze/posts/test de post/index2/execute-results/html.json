@@ -1,0 +1,16 @@
+{
+  "hash": "8ecb3eb9771d1d60a737788d24a750f6",
+  "result": {
+    "markdown": "---\ntitle: \"Manipulation de données\"\nauthor: \"Romu\"\ndate: \"2022-10-25\"\ncategories: [news, analysis]\nimage: \"image.png\"\n---\n\n\nCodes utiles pour la manipulation des données.\n\n***Sélection du répertoire de travail (où il y aura les données à étudier)***\n\n\n::: {.cell}\n\n```{.r .cell-code}\ngetwd() # afficher le répertoire de travail actuel\nsetwd(\"C:/Users/.../dossier de travail\") # définir le répertoire de travail\n\ninstall.packages(\"nom_package\") # installation du package\nlibrary(nom_package) # chargement du package\n```\n:::\n\n\n***Liste des packages à installer/charger (pour ce cours).***\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(tidyverse)  # indispensable, il installe aussi certains des packages suivants\nlibrary(magrittr)\nlibrary(tibble)\nlibrary(dplyr)\nlibrary(tibble)\nlibrary(stringr)\nlibrary(lubridate)\n```\n:::\n\n\n***Création d'une table avec tible***\n\nx : valeurs de 1 à 5  \ny : valeur 1 répété sur chaque ligne  \nz : calcul de l'équation en remplacant les x et y par leurs valeurs\n\n\n::: {.cell}\n\n```{.r .cell-code}\nma_table <- tibble(\n  x = 1:5,      \n  y = 1,        \n  z = x ^ 2 + y         \n)\n\nma_table\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n# A tibble: 5 × 3\n      x     y     z\n  <int> <dbl> <dbl>\n1     1     1     2\n2     2     1     5\n3     3     1    10\n4     4     1    17\n5     5     1    26\n```\n:::\n:::\n\n\nAvantages :\n\n1\\_`tibble` peut avoir des noms de colonnes qui ne sont pas valides dans d'autres formats (voir exemple ci dessous)  \n2_affiche le type de variables, les 10 premi?res lignes et toutes les colonnes\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# \nma_table <- tibble(\n  `:)` = \"smile\", \n  ` ` = \"space\",\n  `2000` = \"number\"\n)\n```\n:::\n",
+    "supporting": [
+      "index2_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
