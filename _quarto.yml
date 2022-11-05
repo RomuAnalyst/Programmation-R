@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Blog quarto"
+  title: "RomuAnalyst"
   navbar:
     right:
       - about.qmd
