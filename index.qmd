@@ -1,5 +1,5 @@
 ---
-title: "Articles et projets en cours"
+title: "R and more"
 listing:
   contents: posts
   sort: "date desc"
