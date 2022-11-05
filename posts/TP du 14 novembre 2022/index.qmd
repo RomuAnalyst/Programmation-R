@@ -10,7 +10,13 @@ image: "image.jpg"
 
 *Tous les codes utilisés dans les étapes suivantes, doivent être visibles dans votre rendu final. Les questions sont indépendantes, donc ne restez pas bloqué sur une question.*
 
-Pour la réalisation du TP, vous aurez besoin des packages suivants : - dplyr - ggplot2 Une fois les packages sont installés/chargés, vérifiez que vous avez accès a dataset « starwars » (affichez le).
+Pour la réalisation du TP, vous aurez besoin des packages suivants :
+
+-   dplyr
+
+-   ggplot2
+
+Une fois les packages installés/chargés, vérifier que vous avez accès au dataset « starwars » (affichez le).
 
 1)  Afficher les personnages qui ont joués dans le film : The Phantom Menace
 2)  Afficher les 10 premières lignes de la table
