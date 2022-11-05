@@ -1,8 +1,8 @@
 ---
-title: "Test de post"
-author: "Romu"
-date: "28 sept 2022"
-categories: [news,analysis]
+title: "TP programmation statistique – R"
+author: "Romuald ZAMI"
+date: "14 novembre b2022"
+categories: [TP]
 image: "image.jpg"
 ---
 
