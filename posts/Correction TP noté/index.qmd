@@ -3,11 +3,9 @@ title: "Correction TP noté"
 author: "Romuald ZAMI"
 date: "14 novembre 2022"
 categories: [TP]
-image: "image.jpg"
+image: "image.png"
 ---
 
 Correction TP 14 novembre
-
-
 
 ![](https://ih1.redbubble.net/image.792468872.0542/pp,504x498-pad,600x600,f8f8f8.jpg)

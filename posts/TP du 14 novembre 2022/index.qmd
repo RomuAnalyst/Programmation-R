@@ -3,7 +3,7 @@ title: "3ème semestre VCOD"
 author: "Romuald ZAMI"
 date: "14 novembre 2022"
 categories: [TP]
-image: "image.jpg"
+image: "image.png"
 ---
 
 ***TP programmation statistique -- R***
