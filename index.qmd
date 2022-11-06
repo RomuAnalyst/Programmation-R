@@ -11,6 +11,6 @@ page-layout: full
 title-block-banner: true
 ---
 
-## Ci-dessous le TP noté du 14 novembre 2022
+## TP manipulation et visualisation du 14 novembre 2022
 Le fichier contenant vos codes, doit être envoyé en utilisant le boutton "Envoi TP" (en haut à droite).  
 À vos codes...
