@@ -10,7 +10,7 @@ website:
         href: mailto:romuald.zami@u-paris.fr
 format:
   html:
-    theme: cosmo
+    theme: spacelab
     css: styles.css
 
 editor: visual
