@@ -12,5 +12,6 @@ title-block-banner: true
 ---
 
 ## TP manipulation et visualisation du 14 novembre 2022
-Le fichier contenant vos codes, doit être envoyé en utilisant le boutton "Envoi TP" (en haut à droite).  
+
+Le fichier contenant vos codes, doit être envoyé en utilisant le bouton "Envoi TP" (en haut à droite).\
 À vos codes...

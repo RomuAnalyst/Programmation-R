@@ -18,7 +18,7 @@ Pour la réalisation du TP, vous aurez besoin des packages suivants :
 
 Une fois les packages installés/chargés, vérifier que vous avez accès au dataset « starwars » (affichez le).
 
-1)  Afficher les personnages qui ont joués dans le film : The Phantom Menace
+1)  Afficher les personnages qui ont joué dans le film : The Phantom Menace
 2)  Afficher les 10 premières lignes de la table
 3)  Combien y a t'il de personnages dans chaque espèce
 4)  Donner le nom des personnages de l'espèce Droid
